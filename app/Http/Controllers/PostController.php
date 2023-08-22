@@ -17,8 +17,8 @@ class PostController extends Controller
     {
         $post = Post::all();
     
-        dd($post);
-        
+        //dd($post);
+        return response()->json(['message' => 'cool created successfully']);
     }
     
 
